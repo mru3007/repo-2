@@ -1,5 +1,7 @@
 pipeline{
-  agent any {
+  
+  agent any 
+    
     stages {
       stage ("start httpd"){
                   steps {
@@ -18,9 +20,6 @@ pipeline{
                   }
       }
       
-    }
-    
-  
-  }
+   }
 
 }
