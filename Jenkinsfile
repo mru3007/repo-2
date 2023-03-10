@@ -1,6 +1,9 @@
 pipeline{
   
-  agent any 
+  agent {
+    
+        label "qa"
+  }
     
     stages {
       stage ("start httpd"){
